@@ -18,6 +18,7 @@ const router = new Router({
             { path: 'button', name: 'button', component: templete.AnchorButton, },
             { path: 'input', name: 'input', component: templete.AnchorInput, },
             { path: 'checkbox', name: 'checkbox', component: templete.AnchorCheckbox, },
+            { path: 'radio', name: 'radio', component: templete.AnchorRadio, },
           ]
         },
 

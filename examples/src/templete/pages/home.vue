@@ -59,12 +59,6 @@
         </div>
       </li>
       <li>
-        <h4>anchor-radio</h4>
-        <div class="demo-layout">
-          <anchor-radio :data="radioData" />
-        </div>
-      </li>
-      <li>
         <h4>anchor-bread-crumb</h4>
         <div class="demo-layout">
           <anchor-bread-crumb :data="breadcrumbData" />

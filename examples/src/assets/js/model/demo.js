@@ -32,14 +32,6 @@ module.exports = {
     },
   ],
 
-  radioData: [
-    {id: 'xiaomi', value: '小米',},
-    {id: 'huawei', value: '华为', active: true,},
-    {id: 'lenovo', value: '联想',},
-    {id: 'chuizi', value: '锤子',},
-    {id: 'sanxing', value: '三星', disabled: true,},
-  ],
-
   breadcrumbData: [
     {text: '云路由器', to: 'https://www.anchnet.com/'},
     {text: '云路由器详情',},

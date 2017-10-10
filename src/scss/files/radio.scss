@@ -8,6 +8,7 @@
   @include e('element'){
     position: relative;
     display: inline-block;
+    margin-left: 20px;
     line-height: 1;
     font-size: $font-size-smaller;
     color: $color-base;
@@ -17,14 +18,22 @@
       cursor: not-allowed;
       color: $color-forbidden-font;
     }
-  }
-  .anchor-radio__element + .anchor-radio__element{
-    margin-left: 20px;
+
+    &:first-child{
+      margin-left: 0;
+    }
   }
 
   @include e('button'){
     position: relative;
     top: -1px;
     margin-right: 3px;
+  }
+
+  @include m('vertical'){
+    display: block;
+    margin-left: 0;
+    height: 32px;
+    line-height: 32px;
   }
 }

@@ -3,7 +3,8 @@
     <div
       v-for="(item, key) in Data"
       :class="['anchor-radio__element', {
-        'anchor-radio__element--disabled': item.disabled
+        'anchor-radio--vertical': mode === 'vertical',
+        'anchor-radio__element--disabled': item.disabled,
       }]"
       @click="item.disabled ? '' : onClick(item, key)"
     >
@@ -28,6 +29,10 @@
     },
 
     props: {
+      mode: {
+        type: String,
+        default: 'horizontal'
+      },
       data: Array,
     },
 

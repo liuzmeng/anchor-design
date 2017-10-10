@@ -113,6 +113,11 @@ module.exports = {
           text: 'Checkbox 复选框',
           link: '/form/checkbox',
         },
+        {
+          id: 'radio',
+          text: 'Radio 单选框',
+          link: '/form/radio',
+        },
       ],
     },
     {

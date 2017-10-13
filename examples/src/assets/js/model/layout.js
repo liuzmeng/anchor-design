@@ -95,6 +95,17 @@ module.exports = {
 
   menuData: [
     {
+      id: 'layout',
+      text: 'Layout 布局类',
+      children: [
+        {
+          id: 'anchorLayout',
+          text: 'Layout 布局',
+          link: '/layout/anchor_layout',
+        },
+      ]
+    },
+    {
       id: 'form',
       text: 'Form 表单类',
       children: [

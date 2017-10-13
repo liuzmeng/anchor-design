@@ -1,6 +1,9 @@
 import Layout from '../templete/layout'
 import Home from './pages/home'
 
+import LayoutTemplate from './pages/layout/layout-template'
+import AnchorLayout from './pages/layout/anchor-layout'
+
 import Form from './pages/form/anchor-form'
 import AnchorButton from './pages/form/anchor-button'
 import AnchorInput from './pages/form/anchor-input'
@@ -16,6 +19,8 @@ import Slider from './pages/drag/anchor-slider'
 
 module.exports = {
   Layout, Home,
+
+  LayoutTemplate, AnchorLayout,
 
   Form, AnchorButton, AnchorInput, AnchorCheckbox, AnchorRadio,
 
